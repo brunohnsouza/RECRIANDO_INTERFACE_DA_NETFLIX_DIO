@@ -1,7 +1,7 @@
 #  Algumas informações desse Clone:
 
-- Utilizei algumas sessões anteriores observadas (como o algumas aulas "nav-link");
+- Utilizei algumas sessões anteriores observadas (como algumas aulas sobre o "nav-link");
 
 - Coloquei comentários na parte do HTML e do CSS;
 
-- Deixe uma página de imagens que utilize.   
+- Deixe a pasta de imagens que utilize.   
