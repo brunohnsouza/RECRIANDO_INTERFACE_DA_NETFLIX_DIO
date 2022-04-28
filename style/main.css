@@ -1,0 +1,168 @@
+:root {
+  --vermelho: #e50913;
+  --preto: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+  background: var(--preto);
+  font-family: "Arial", Times, serif;
+  color: white;
+}
+
+/*container inteiro*/
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*logo da Netflix e suas informações*/
+header .logo {
+  margin: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--vermelho);
+  font-family: "Arial", Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  font-family: "Arial", Times, sans-serif;
+  margin-left: 20px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*ícones superiores direito*/
+header .container a i {
+  font-size: 15px;
+  color: white;
+  margin: 15px;
+  position: relative;
+  left: 300px;
+}
+
+/*serie-principal e suas informações*/
+.serie-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/img/Capa2.jpg");
+
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  }
+
+.serie-principal .sinopse {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.titulo {
+  margin-top: 10%;
+  font-size: 40px;
+  font-family: "Arial black", Arial, sans-serif;
+}
+
+.informacoes_serie {
+  font-family: "Arial black", Times, serif;
+}
+
+.criacao {
+  margin-bottom: 5px;
+}
+
+/*botão Assista Agora*/
+.botao1 {
+  background-color: white;
+  border: none;
+  color: black;
+
+  padding: 15px 30px;
+  margin-right: 12px;
+  font-size: 12px;
+  font-family: "Arial black", Times, serif;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.botao1:hover {
+  background-color: white;
+  color: black;
+}
+.botao1 i {
+  margin-right: 8px;
+  font-size: 15px;
+}
+
+/*botão Mais Informações*/
+.botao2 {
+  background-color: rgb(128,128,128);
+  border: none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 12px;
+  font-size: 12px;
+  font-family: "Arial black", Times, serif;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.botao2:hover {
+  background-color: white;
+  color: black;
+}
+.botao2 i {
+  margin-right: 8px;
+  font-size: 15px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.serie-principal .container {
+  width: 70%;
+}
+
+/*Informações do bloco das séries*/
+.box-serie {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carousel-series {
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+.titulo_carousel {
+  margin-bottom: 5px;
+}
+
+/*Desenvolvimento*/
+.bg-footer {
+  font-family: "Arial", Times, sans-serif;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
